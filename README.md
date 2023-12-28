@@ -17,18 +17,18 @@
 </a>
 
 ### Ejemplo 
-En caso de duda, antes de instalar CuriosityBot-MD, pruebe el bot aquí
+En caso de duda, antes de instalar NexusBot-MD, pruebe el bot aquí
 
-<a href="https://chat.whatsapp.com/LCAUbkf5kUz7jSxO6FADMU">
-  <img src="https://img.shields.io/badge/CuriosityBot-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
+<a href="https://chat.whatsapp.com/KhCT9qA265H67JWvBqpKqb">
+  <img src="https://img.shields.io/badge/NexusBot-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
 ***
 
 ### `⚙️ AJUSTES ⚙️`
-- CAMBIAR NÚMERO DE PROPIETARIO [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/AzamiJs/CuriosityBot-MD/fork)
-- Puede cambiar a la última versión de baileys editando el package.json [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/package.json#L42)
+- CAMBIAR NÚMERO DE PROPIETARIO [aqui](https://github.com/WOTCHITO/Nexus--bot-/blob/main/config.js#L6)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/WOTCHITO/Nexus--bot-/fork)
+- Puede cambiar a la última versión de baileys editando el package.json [aqui](https://github.com/WHOTCHITO/Nexus--bot-/blob/main/package.json#L42)
 ***
 
 #### INSTALACIÓN AUTOMÁTICA POR TERMUX
@@ -95,7 +95,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ### EDITOR & PROPIETARIO DEL BOT
-<a href="https://github.com/WOTCHITO"><img src="https://github.com/WOTCHITO.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/WOTCHITO"><img src="https://github.com/WOTCHITO.png" width="250" height="250" alt="Eder"/></a>
 
 #### COLABORADORES 
 <a href="https://github.com/WOTCHITO/Nexus--bot-/graphs/contributors">
