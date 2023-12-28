@@ -23,7 +23,7 @@ global.linksjpg = fs.readFileSync('./storage/imagenes/Links.jpg')
 var img = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'; var img1 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'; var img3 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'; var img4 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'; var img5 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'
 var img6 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'
 //Navideñas
-var img2 = 'https://telegra.ph/file/b9b4821c3f78b7ce6d3aa.jpg'
+var img2 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'
 
 global.sityImg = [img, img1, img2, img3, img4, img5, img6]
 
