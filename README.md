@@ -100,8 +100,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 #### COLABORADORES 
 <a href="https://github.com/WOTCHITO/Nexus--bot-/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=WOTCHITO/Nexus--bot-"
-a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Jxtxn17/BaileyBot-Md" /> 
+/> 
 </a>
 
 <!-- markdownlint-restore -->
