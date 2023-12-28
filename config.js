@@ -16,20 +16,20 @@ global.suittag = ['5214531287294']
 global.mods = []
 global.prems = []
 
-global.packname = '© CuriosityBot'
-global.author = 'Created By Azami'
-global.wm = '© CuriosityBot-MD'
-global.wm2 = '𝗖𝗎𝗋𝗂𝗈𝗌𝗂𝗍𝗒 : 𝗕𝗈𝗍'
-global.azami = 'Azami'
-global.cb = 'CuriosityBot-MD'
+global.packname = '© NexusBot'
+global.author = 'Created By Eder'
+global.wm = '⏤͟͟͞͞ ＮｅｘｕｓＢｏｔ'
+global.wm2 = '𝙉𝙚𝙭𝙪𝙨𝘽𝙤𝙩'
+global.azami = 'Eder'
+global.cb = '𝗡𝗲𝘅𝘂𝘀𝗕𝗼𝘁-𝗠𝗗'
 
 global.vs = 'V2 • 1.0.5'
 global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '© Azami ~ Zam'
-global.devnum = '+52 1 729 488 8993'
+global.dev = '© Wotchito ~ Eder'
+global.devnum = '+573027866596'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
