@@ -95,11 +95,13 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ### EDITOR & PROPIETARIO DEL BOT
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/WOTCHITO"><img src="https://github.com/WOTCHITO.png" width="250" height="250" alt="Azami19"/></a>
 
 #### COLABORADORES 
 <a href="https://github.com/WOTCHITO/Nexus--bot-/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=WOTCHITO/Nexus--bot-" /> 
+<img src="https://contrib.rocks/image?repo=WOTCHITO/Nexus--bot-"
+a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Jxtxn17/BaileyBot-Md" /> 
 </a>
 
 <!-- markdownlint-restore -->
