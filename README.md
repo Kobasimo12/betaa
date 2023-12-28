@@ -89,7 +89,7 @@ para usuarios del heroku
 ### `OBTENER OTRO CODIGO QR`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd CuriosityBot-MD
+> cd NexusBot-MD
 > rm -rf sessions
 > npm start
 ```
