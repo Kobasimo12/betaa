@@ -1,7 +1,7 @@
 ## Nexus_Bot ✨
 
 <p align="center">
-<img src="https://telegra.ph/file/1de45831f62519a4dac60.jpg" alt="CuriosityBot-MD" width="900"/>
+<img src="https://telegra.ph/file/839766d5340f5f33838ec.jpg" alt="NexusBot-MD" width="900"/>
 </p>
 
 <a href="https://github.com/azamijs/CuriosityBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
