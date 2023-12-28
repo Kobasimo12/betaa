@@ -25,7 +25,7 @@ var img6 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'
 //Navideñas
 var img2 = 'https://telegra.ph/file/839766d5340f5f33838ec.jpg'
 
-global.sityImg = [img, img1, img2, img3, img4, img5, img6]
+global.sityImg = [img, img1, img2, img3, img4, img5]
 
 //Enlaces
 global.yt = 'https://www.youtube.com/@Azami_YT'
