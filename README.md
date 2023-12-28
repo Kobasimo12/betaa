@@ -4,8 +4,8 @@
 <img src="https://telegra.ph/file/839766d5340f5f33838ec.jpg" alt="NexusBot-MD" width="900"/>
 </p>
 
-<a href="https://github.com/azamijs/CuriosityBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/WOTCHITO/Nexus--bot-"><img title="Stars" src="https://img.shields.io/github/stars/WOTCHITO/Nexus--bot-?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/WOTCHITO/Nexus--bot-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WOTCHITO/Nexus--bot-?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/azamijs/CuriosityBot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
 
 
