@@ -1,4 +1,4 @@
-## CuriosityBot-MD ✨
+## Nexus_Bot ✨
 
 <p align="center">
 <img src="https://telegra.ph/file/1de45831f62519a4dac60.jpg" alt="CuriosityBot-MD" width="900"/>
