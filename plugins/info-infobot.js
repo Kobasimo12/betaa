@@ -20,10 +20,10 @@ let neww = performance.now()
 let pp = './storage/logos/Menu1.jpg'
 let speed = neww - old
 let info = `
-*📑 INFO CURIOSITY BOT MD*
+*📑 INFO NEXUS BOT MD*
 
 👑 *CREADOR*
- *Azami*
+ *Eder*
 --------------------------
 🥏 *CONTACTO* 
  *${ig}*
