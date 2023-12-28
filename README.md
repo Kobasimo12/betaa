@@ -39,7 +39,7 @@ En caso de duda, antes de instalar CuriosityBot-MD, pruebe el bot aquí
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/WOTCHITO/Nexus--bot-/master/curiosity.sh | bash
 ```
 
 #### ACTIVAR EN TERMUX
@@ -58,7 +58,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install
+git clone https://github.com/WOTCHITO/Nexus--bot- && cd Nexus--bot- && yarn install && npm install
 ```
 
 ```bash
