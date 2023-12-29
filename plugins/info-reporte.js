@@ -7,7 +7,7 @@ conn.reply('120363145586610812@g.us', m.quoted ? teks + m.quoted.text : teks, nu
 contextInfo: {
 mentionedJid: [m.sender]
 }})
-  m.reply(`*[⚠️] Exito el reporte ha sido enviado a mí Creadora. Tendrá una respuesta pronto. Si se detecta que el reporte es Falso será Ignorado el reporte.*`)
+  m.reply(`*[⚠️] Exito el reporte ha sido enviado a mí Creador Eder. Tendrá una respuesta pronto. Si se detecta que el reporte es Falso será Ignorado el reporte.*`)
 
 }
 
