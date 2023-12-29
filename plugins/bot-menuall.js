@@ -34,7 +34,7 @@ before: `╭━━━〔 U S U A R I O 〕━━━◉
 ┃
 ├━━━〔 I N F O 〕━━━◉
 ┃╭──────────────
-┃┃ *Creador:* Azami
+┃┃ *Creador:* Eder
 ┃┃ *Tiempo Activo:* %muptime
 ┃┃ *Registrados:* %rtotalreg de %totalreg usuarios
 ┃╰────────────── 
@@ -54,7 +54,7 @@ after: `
 `,
 }
 
-var handler = async (m, { conn: azami, usedPrefix: _p, __dirname }) => {
+var handler = async (m, { conn: eder, usedPrefix: _p, __dirname }) => {
 
 try {
 
