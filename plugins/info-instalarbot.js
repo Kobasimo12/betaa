@@ -11,7 +11,7 @@ let texto = `
 ┌┤➳ 
 ┌┤➳ _un whatsapp inmune (secundario)_
 ┌┤➳ _un número virtual_
-┌┤➳ _2 dispositivo o una PC para escanear_
+┌┤➳ _2 dispositivo o un 1 dispositivo para scanear codigo 8digitos_
 ╰┬────────────┈⊷
   │ *termux-setup-storage
 
