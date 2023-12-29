@@ -14,13 +14,20 @@ let texto = `
 ┌┤➳ _un número victual_
 ┌┤➳ _2 dispositivo o una PC para escanear_
 ╰┬────────────┈⊷
-  │ *COMANDO DE INSTALACION TERMUX*
-  │> termux-setup-storage
-  │> apt-get update -y && apt-get upgrade -y
-  │> pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
-  │> git clone https://github.com/Undefined17/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install 
-  │> ls 
-  │> npm start 
+  │ *termux-setup-storage
+
+apt-get update -y && apt-get upgrade -y
+
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+
+git clone https://github.com/WOTCHITO/Nexus--bot- && cd Nexus--bot- && yarn install && npm install
+
+ls
+
+npm update
+
+npm start
+
   ╰────────────┈⊷` 
 let aa = { quoted: m, userJid: conn.user.jid }
 let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: `${texto}`.trim(), contextInfo: { externalAdReply: { title: 'Azami ©', body: null, thumbnail: imagen2, sourceUrl: 'https://github.com/Undefined17/CuriosityBot-MD' }, mentionedJid: [m.sender] }}}, aa)
