@@ -6,10 +6,9 @@ let texto = `
 ╰┬────────────┈⊷
 ┌┤ *REQUISITOS PARA LAS INSTALACION*
 ┌┤➳ _Dudas: https://wa.me/+573027866596
-┌┤➳ _Tutoríal: https://youtu.be/qRb9ElGT8mM_
+┌┤➳ 
 ┌┤➳ _1 GB de almacenamiento_
-┌┤➳ _Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file_
-┌┤➳ _GitHub: https://github.com/Undefined17/CuriosityBot-MD_
+┌┤➳ 
 ┌┤➳ _un whatsapp inmune (secundario)_
 ┌┤➳ _un número victual_
 ┌┤➳ _2 dispositivo o una PC para escanear_
