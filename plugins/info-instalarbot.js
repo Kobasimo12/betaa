@@ -10,7 +10,7 @@ let texto = `
 ┌┤➳ _1 GB de almacenamiento_
 ┌┤➳ 
 ┌┤➳ _un whatsapp inmune (secundario)_
-┌┤➳ _un número victual_
+┌┤➳ _un número virtual_
 ┌┤➳ _2 dispositivo o una PC para escanear_
 ╰┬────────────┈⊷
   │ *termux-setup-storage
