@@ -40,7 +40,7 @@
  console.log(e) 
  }} 
  handler.tags = ['bot'] 
- handler.command = /^(menu)$/i 
+ handler.command = /^(111223)$/i 
  handler.register = true 
   
  export default handler 
