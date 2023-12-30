@@ -167,7 +167,7 @@ throw e}
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['help', 'menucompleto', 'allmenu'] 
+handler.command = ['help', 'menú', 'menu'] 
 handler.register = true
 
 export default handler
