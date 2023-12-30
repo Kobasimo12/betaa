@@ -28,8 +28,8 @@
   
  let menu = `*👋 Hola, ${name}* 
   
- .allmenu 
- _(Para ver el menú completo)_` 
+ .menu 
+  
   
  await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: 'Muerte a los gays!!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}}) 
   
