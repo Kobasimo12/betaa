@@ -13,4 +13,5 @@ import axios from 'axios';
  handler.command = ['pepon, gordo']; 
  handler.tags = ['nsfw']; 
  handler.premium = true 
+
  export default handler;
