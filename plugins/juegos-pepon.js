@@ -8,3 +8,9 @@ import axios from 'axios';
      const haha = await res[Math.floor(res.length * Math.random())]; 
      conn.sendMessage(m.chat, {image: {url: haha}, caption: `_${command}_`.trim()}, {quoted: m}); 
    } 
+
+ handler.help = ['pepon, gordo']; 
+ handler.command = ['pepon, gordo']; 
+ handler.tags = ['nsfw']; 
+ handler.premium = true 
+ export default handler;
