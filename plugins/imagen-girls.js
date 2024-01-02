@@ -4,8 +4,12 @@ var handler = async (m, {command, conn}) => {
 
 if (command == 'china') {
 let china = await fetch(`https://aemt.me/china`)
-conn.sendMessage(m.chat, {image: china, caption: `*🇨🇳 China*`.trim()}, {quoted: m})
+conn.sendMessage(m.chat, {image: china, caption: `*🇲🇦 China*`.trim()}, {quoted: m})
 }
+if (command == 'Perú') {
+let china = await fetch(`https://aemt.me/china`)
+conn.sendMessage(m.chat, {image: china, caption: `*🇵🇪 Perú*`.trim()}, {quoted: m})
+  }
 
 if (command == 'vietnamita') {
 let vietnamita = await fetch(`https://aemt.me/vietnam`)
@@ -39,7 +43,7 @@ conn.sendMessage(m.chat, {image: malaya, caption: `*🇲🇾 Malaya*`.trim()}, {
 
 }
 handler.help = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya']
-handler.command = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya']
+handler.command = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya, Perú']
 handler.tags = ['nsfw']
 
 export default handler
