@@ -9,7 +9,7 @@ conn.sendMessage(m.chat, {image: china, caption: `*🇲🇦 China*`.trim()}, {qu
 if (command == 'Perú') {
 let china = await fetch(`https://telegra.ph/file/71e34451a299f2741e912.jpg`)
 conn.sendMessage(m.chat, {image: perú, caption: `*🇵🇪 Perú*`.trim()}, {quoted: m})
-  }
+}
 
 if (command == 'vietnamita') {
 let vietnamita = await fetch(`https://aemt.me/vietnam`)
