@@ -43,7 +43,7 @@ conn.sendMessage(m.chat, {image: malaya, caption: `*🇲🇾 Malaya*`.trim()}, {
 
 }
 handler.help = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya']
-handler.command = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya, Perú']
+handler.command = ['china', 'vietnamita', 'tailandes', 'indonesia', 'japones', 'coreana', 'malaya, perú']
 handler.tags = ['nsfw']
 
 export default handler
