@@ -11,7 +11,7 @@ import axios from 'axios';
   };
  handler.help = ['pepon, gordo']; 
  handler.command = ['pepon, gordo']; 
- handler.tags = ['nsfw']; 
+ handler.tags = ['pepon']; 
  handler.premium = true 
 
  export default handler;
