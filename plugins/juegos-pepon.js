@@ -5,9 +5,6 @@ import axios from 'axios';
 
    if (command == 'nsfwloli') { 
      const res = (await axios.get(`https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/src/JSON/Gordo-PEPON.json`)).data; 
-     const haha = await res[Math.floor(res.length * Math.random())]; 
-     conn.sendMessage(m.chat, {image: {url: haha}, caption: `_${command}_`.trim()}, {quoted: m}); 
-   } 
   };
  handler.help = ['pepon, gordo']; 
  handler.command = ['pepon, gordo']; 
