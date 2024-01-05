@@ -44,7 +44,7 @@ if (global.math[id]) conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}𝙎𝙀 �
 delete global.math[id]
 }, math.time)
 ]}
-handler.help = ['math <mode>']
+handler.help = ['mates']
 handler.tags = ['juegos']
 handler.command = /^math|mates|matemáticas/i
 
