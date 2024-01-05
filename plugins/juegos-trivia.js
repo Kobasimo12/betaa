@@ -36,7 +36,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 
 handler.help = ['trivia']
-handler.tags = ['game']
+handler.tags = ['juegos']
 handler.command = /^(trivia|triviador)$/i
 
 export default handler
