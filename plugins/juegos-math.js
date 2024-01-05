@@ -45,7 +45,7 @@ delete global.math[id]
 }, math.time)
 ]}
 handler.help = ['math <mode>']
-handler.tags = ['game']
+handler.tags = ['juegos']
 handler.command = /^math|mates|matemáticas/i
 
 export default handler
