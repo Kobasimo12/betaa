@@ -1,8 +1,8 @@
 import fetch from 'node-fetch'
 
-var handler = async (m, { text,  usedPrefix, command }) => {
+var handler = async (m, { text, usedPrefix, command }) => {
 
-if (!text) return conn.reply(m.chat, `🎌 *Ingrese una petición*\n\nEjemplo, !bard Conoces CuriosityBot-MD?`, m, fake, )
+if (!text) return conn.reply(m.chat, `🎌 *Enter a request*\n\nExample, !bard write a program to print 100 numbers`, m, fake, )
 
 try {
 
@@ -13,7 +13,7 @@ await m.reply(res.result)
 
 } catch (error) {
 console.error(error)
-return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+return conn.reply(m.chat, `*🚩 A failure occurred*`, m, fake, )
 }
 
 }
@@ -24,3 +24,4 @@ handler.tags = ['ai']
 handler.premium = false
 
 export default handler
+
