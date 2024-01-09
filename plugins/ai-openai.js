@@ -6,12 +6,14 @@ const configuration = new Configuration({ organization: global.openai_org_id, ap
 const openaiii = new OpenAIApi(configuration);
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return    
-if (!text) return conn.reply(m.chat, `*🎌 Ingrese una petición*\n\nEjemplo, !ia Pasos para crear una página`, m, fake, )
+if (!text) return conn.reply(m.chat, `*🎌 Enter a request*\n\nExample, !ia Steps to create a page`, m, fake, )
 
 try {
 
-conn.sendPresenceUpdate('composing', m.chat)  
-let syms = `Eres un asistente y tu nombre es CuriosityBot-MD, el nombre de tu dueño es Azami`
+conn.sendPresenceUpdate('composing', m.chat)
+let syms = `You are a wizard and your name is CuriosityBot-MD, your owner's name is Azami`
+
+
 let res = await gpt.ChatGpt(text, syms)
 await m.reply(res.text)
 } catch {
@@ -28,8 +30,8 @@ m.reply(`${hasill.result}`.trim())
 }}}
 
 }
-handler.help = ['ia']
+handler.help = ['ai']
 handler.tags = ['ai']
-handler.command = ['openai', 'chatgpt', 'ia', 'robot']
+handler.command = ['openai', 'chatgpt', 'ai', 'robot']
 
 export default handler
