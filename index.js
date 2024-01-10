@@ -1,4 +1,4 @@
-console.log('🚀 Iniciando...')
+console.log('🚀 Starting the system...')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['magenta', 'cyan']
 })
-say(`Bot: ${name}\nVersion: 1.0.5\nCreador: Eder ~ Zam\nNumero: +52 1 729 488 8993\nEmail: thecuriositybot@gmail.com`, {
+say(`Bot: ${name}\nVersion: 1.0.5\Developer: AjZAp\nNumber: +918590508376\nInstagram: sincrypt_ajzap`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
@@ -59,7 +59,7 @@ break
 })
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Ocurrió un error inesperado:', code)
+console.error('⚠️ An unexpected error occurred:', code)
 if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
