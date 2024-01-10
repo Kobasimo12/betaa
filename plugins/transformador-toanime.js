@@ -4,9 +4,9 @@ var handler = async (m, {conn, text, args, usedPrefix, command}) => {
 
 const q = m.quoted ? m.quoted : m
 const mime = (q.msg || q).mimetype || q.mediaType || ''
-if (!/image/g.test(mime)) throw '*⚠️ RESPONDA O ETIQUETE UNA IMÁGEN*'
+if (!/image/g.test(mime)) throw '*⚠️ REPLY OR TAG AN IMAGE*'
  
-m.reply('*🚀 P R O C E S A N D O*') 
+m.reply('*🚀 P R O C E S S I N G*')
 const data = await q.download?.()
 const image = await uploadImage(data)
 try {
@@ -21,13 +21,14 @@ try {
 const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`
 await conn.sendFile(m.chat, anime3, 'error.jpg', null, m)
 } catch (e) {
-throw '*⚠️ ERROR, INTENTE DE NUEVO*'}}}
+throw '*⚠️ ERROR, TRY AGAIN*'}}}
          
 }
 handler.help = ['toanime']
-handler.tags = ['transformador']
+handler.tags = ['transformer']
 handler.command = /^(jadianime|toanime)$/i
 
 handler.limit = true
  
 export default handler
+
