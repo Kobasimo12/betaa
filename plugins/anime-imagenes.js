@@ -4,8 +4,8 @@ var handler = async (m, { conn, command }) => {
 
 if (command == 'fanart') {
 let fanart = await fetch(`https://api.lolhuman.xyz/api/random/art?apikey=${lolkeysapi}`)
-conn.sendMessage(m.chat, {image: fanart, caption: `*🧧 Fanart*`.trim()}, {quoted: m})
-m.react('🧧')
+conn.sendMessage(m.chat, {image: fanart, caption: `*   Fanart*`.trim()}, {quoted: m})
+m.react('  ')
 }
 
 if (command == 'husbu') {
@@ -58,4 +58,3 @@ handler.help = ['fanart', 'husbu', 'kanna', 'megumin', 'neko', 'shota', 'waifu',
 handler.limit = true
 
 export default handler
-                 
