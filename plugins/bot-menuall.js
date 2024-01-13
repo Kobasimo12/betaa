@@ -5,24 +5,24 @@ import { xpRange } from '../lib/levelling.js'
 
 let tags = {
 'info': 'I N F O R M A C I Ó N ',
-'grupo': 'G R U P O S',
+'grupo': 'G R O U P S',
 'juegos': 'J U E G O S',
 'descargas': ' D E S C A R G A S',
 'jadibot': 'J A D I B O T', 
 'nable': 'E N A B L E / D I S A B L E', 
-'internet': 'B U S C A D O R E S',
-'transformador': 'C O N V E R T I D O R E S', 
+'internet': 'I N T E R N E T',
+'transformador': 'C O N V E R T E R', 
 'sticker': 'S T I C K E R',
 'rg': 'R P G',
-'audio': 'A U D I O S   E F E C T O S', 
+'audio': 'A U D I O  E F F E C T S', 
 'implementos': 'H E R R A M I E N T A S', 
 'anime': 'A N I M E', 
 'nsfw': 'N S F W +18', 
 'owner': 'O W N E R',
-'ai': 'I A',
+'ai': 'A I',
 }
 const defaultMenu = {
-before: `╭━━━〔 U S U A R I O 〕━━━◉
+before: `╭━━━〔 U 〕━━━◉
 ┃╭──────────────
 ┃┃ *Nombre:* %name
 ┃┃ *Limite:* %diamond
@@ -34,9 +34,8 @@ before: `╭━━━〔 U S U A R I O 〕━━━◉
 ┃
 ├━━━〔 I N F O 〕━━━◉
 ┃╭──────────────
-┃┃ *Creador:* Eder
-┃┃ *Tiempo Activo:* %muptime
-┃┃ *Registrados:* %rtotalreg de %totalreg usuarios
+┃┃ *Owner:* ${owner_name}
+┃┃ *Active Since:* %muptime
 ┃╰────────────── 
 ├━━━━━━━━━━━━━━━◉
 ┃
@@ -155,13 +154,13 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/839766d5340f5f33838ec.png')
   
-await conn.reply(m.chat, '*Próximamente se remitirá el menú.*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.ig, thumbnailUrl: ppBot }}})
+await conn.reply(m.chat, '*Hehe, here you go*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.ig, thumbnailUrl: ppBot }}})
 m.react('🚀') 
 
 conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen2, "mediaUrl": global.nn, "sourceUrl": global.nn}}}, {quoted: fproducto});
     
 } catch (e) {
-conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+conn.reply(m.chat, `*🚩 A failure occured*`, m, fake, )
 throw e}
 
 }
