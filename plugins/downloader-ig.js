@@ -6,8 +6,8 @@ import { instagramdl } from '@bochilteam/scraper'
  
 var handler = async (m, {conn, args, command, usedPrefix}) => {
  
-if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de instagram*\n\nEjemplo ${usedPrefix + command} https://www.instagram.com/reel/CuqAzGRAbZa/?igshid=MzRlODBiNWFlZA==`, m, fake, )
-conn.reply(m.chat, `⏰ Espere un momento`, m, fake, )
+if (!args[0]) return conn.reply(m.chat, `🎌 *Enter an instagram link*\n\nExample ${usedPrefix + command} https://www.instagram.com/reel/CuqAzGRAbZa/?igshid=MzRlODBiNWFlZA==`, m, fake, )
+conn.reply(m.chat, `⏰ Wait a moment`, m, fake, )
 
 try {
 
@@ -50,15 +50,15 @@ let shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${arg
 let txt1 = `🍧 *Url:* ${shortUrl1}`.trim()
 await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m)
 } catch {
-return conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, )
+return conn.reply(m.chat, '${error_emoji} *A failure occurred*', m, fake, )
 }}}}} 
 
 }
 handler.help = ['ig']
-handler.tags = ['descargas']
+handler.tags = ['downloader']
 handler.command = /^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i
 
-handler.register = true
+handler.register = ${global.reg}
 handler.limit = true
 
 export default handler
