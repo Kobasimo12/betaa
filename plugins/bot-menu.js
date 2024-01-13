@@ -1,5 +1,3 @@
-//CÓDIGO ADAPTADO POR https://github.com/GataNina-Li | @gata_dios & https://github.com/AzamiJs | @Azami 
-  
  import fs from 'fs' 
  import fetch from 'node-fetch' 
  import { xpRange } from '../lib/levelling.js' 
@@ -22,21 +20,21 @@
  //FAKES 
  let a = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': `${name}`, 'jpegThumbnail': await (await fetch(pp)).buffer(), 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'} 
  const ftrol = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : 2023, status: 1, surface : 1, message: `${name}!`, orderTitle: `▮Menu ▸`, sellerJid: '0@s.whatsapp.net' }}} 
- const fload = { key : { message: `NexusBot-MD 🍧` + `\nMuerte a los gays`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }} 
+ const fload = { key : { message: `${wm}` + `\nMuerte a los gays`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }} 
   
  m.react('🏷️') 
   
- let menu = `*👋 Hola, ${name}* 
+ let menu = `*👋 Hey, ${name}* 
   
  .menu 
   
   
- await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: 'Muerte a los gays!!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}}) 
+ await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: 'Hey Babe its me ${wm}', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}}) 
   
   
   
  } catch { 
- conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, ) 
+ conn.reply(m.chat, `*🚩 A failure occured*`, m, fake, ) 
  console.log(e) 
  }} 
  handler.tags = ['bot'] 
